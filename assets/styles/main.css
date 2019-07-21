@@ -13,19 +13,14 @@ ul {
     padding-inline-start: 0;
 }
 .container {
-
     border: 1px darkgrey dashed;
     width: 100%;
     max-width: 80rem;
     margin: 0 auto;
-
 }
 .wrap{
     width: 100%;
     min-width: 640px;
-}
-.main-slider{
-    height: 67%;
 }
 .inner-wrap{
     min-width: 640px;
@@ -33,6 +28,9 @@ ul {
     margin: 0 auto;
     clear: both;
     position: relative;
+}
+.header{
+    padding: 5px;
 }
 .header__top{
     font-size: 0;
@@ -55,26 +53,6 @@ ul {
     display: inline-block;
     overflow: hidden;
     vertical-align: middle;
-
-}
-.header__top-info-block_services{
-    width: 100%;
-    box-sizing: border-box;
-}
-.header__top-info-block .items-wrapper{
-
-}
-.items-wrapper__item.services{
-    border: 1px darkgrey dashed;
-    height: 100px;
-    width: 150px;
-    text-align: center;
-}
-.items-wrapper__item.social{
-    border: 1px darkgrey dashed;
-    height: 30px;
-    width: 30px;
-    text-align: center;
 }
 .header__top-info-block_section{
     /*width: fit-content;*/
@@ -91,16 +69,15 @@ ul {
     text-align: center;
     padding: 20px;
 }
-
+.header__top-info-block_services{
+    width: 100%;
+    box-sizing: border-box;
+}
 .header__logo-src {
     max-width: 350px;
     width:100%;
     max-height: 184px;
-   /* height: 100%;
-    -o-object-fit: contain;
-    object-fit: contain;*/
 }
-
 .header__menu{
     width:100%;
     margin-top: 5px;
@@ -114,6 +91,10 @@ ul {
 }
 .header__menu li{
     border-right: 1px solid #d2d2d2;
+    min-height: 26px;
+    display: -ms-flexbox;
+    display: -ms-flex;
+    display: flex;
 }
 .header__menu li:first-child{
     border-left: 1px solid #d2d2d2;
@@ -125,14 +106,17 @@ ul {
     font-size: 19px;
     text-decoration: none;
     color: #969696;
-
 }
 .header__menu li a:hover {
     background-color: black;
     color: white;
 }
-.header{
-    padding: 5px;
+
+.phone-wrapper{
+    margin-top: 5px;
+    padding: 15px;
+    text-align: center;
+    border: 1px darkgrey dashed;
 }
 .items-wrapper{
     padding:15px;
@@ -146,25 +130,21 @@ ul {
     align-items: center;
     justify-content: center;
 }
-
-.header__menu ul{
-
-}
-.header__menu li{
-    min-height: 26px;
-    display: -ms-flexbox;
-    display: -ms-flex;
-    display: flex;
-}
-.phone-wrapper{
-    margin-top: 5px;
-    padding: 15px;
-    text-align: center;
+.items-wrapper__item.services{
     border: 1px darkgrey dashed;
+    height: 100px;
+    width: 150px;
+    text-align: center;
 }
-
+.items-wrapper__item.social{
+    border: 1px darkgrey dashed;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+}
 
 <!-->
+
 html, body {
     position: relative;
     height: 100%;
@@ -176,6 +156,9 @@ body {
     color:#000;
     margin: 0;
     padding: 0;
+}
+.main-slider{
+    height: 67%;
 }
 .swiper-container {
     width: 100%;
