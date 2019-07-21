@@ -20,7 +20,7 @@ ul {
 }
 .wrap{
     width: 100%;
-    min-width: 640px;
+    min-width: 850px;
 }
 .inner-wrap{
     min-width: 640px;
@@ -194,5 +194,9 @@ body .swiper-button-prev{
 .main-slider .swiper-wrapper img {
     width: 100%;
     display: block;
+    height: 500px;
+    object-fit: cover;
 }
+.main-slider .swiper-slide{
 
+}
