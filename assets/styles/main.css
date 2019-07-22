@@ -301,5 +301,25 @@ body .swiper-button-prev{
         -moz-box-sizing: border-box;
         box-sizing: border-box;
     }
+}
 
+.repair-info-block__title a{
+    padding: 15px;
+    display: block;
+}
+.repair-info-block__title {
+    cursor: pointer;
+}
+
+.repair-info-block__wrapper{
+    border: 1px darkgrey dashed;
+}
+.repair-info-block__wrapper-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-gap: 2vw;
+}
+.repair-info-block__wrapper-list-item{
+    text-align: center;
+    padding: 15px;
 }
