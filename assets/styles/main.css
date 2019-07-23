@@ -311,6 +311,7 @@ body .swiper-button-prev{
 }
 .repair-info-block__title {
     cursor: pointer;
+    background-color: #efefef;
 }
 
 .repair-info-block__title.active::after,
@@ -339,6 +340,7 @@ body .swiper-button-prev{
     border: 1px darkgrey dashed;
 }
 .repair-info-block__wrapper-list{
+    background-color: aliceblue;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     grid-gap: 2vw;
