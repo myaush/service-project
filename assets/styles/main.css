@@ -305,10 +305,29 @@ body .swiper-button-prev{
 
 .repair-info-block__title a{
     padding: 15px;
-    display: block;
+    display: inline-block;
+    min-width: 130px;
+    vertical-align: middle;
 }
 .repair-info-block__title {
     cursor: pointer;
+}
+
+.repair-info-block__title::after {
+    content: '\276F';
+}
+.repair-info-block__title.active::after {
+    content: '\276E';
+}
+.repair-info-block__title::after,
+.repair-info-block__title.active::after{
+    font-size: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    width: auto;
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
 }
 
 .repair-info-block__wrapper{

@@ -31,6 +31,8 @@ $('.repair-info-block__wrapper-list').hide();
                     });
                 }
             });
+            $('.repair-info-block__title').removeClass('active');
+            $(this).addClass('active');
         }else{
             $(this).closest('.repair-info-block__wrapper').find('.repair-info-block__wrapper-list').slideUp({
                 start: function () {
@@ -39,6 +41,7 @@ $('.repair-info-block__wrapper-list').hide();
                     });
                 }
             });
+            $(this).removeClass('active');
         }
 
     });
