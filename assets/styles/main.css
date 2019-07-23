@@ -338,6 +338,7 @@ body .swiper-button-prev{
 
 .repair-info-block__wrapper{
     border: 1px darkgrey dashed;
+    margin: 5px;
 }
 .repair-info-block__wrapper-list{
     background-color: aliceblue;
