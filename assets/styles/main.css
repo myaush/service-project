@@ -313,14 +313,12 @@ body .swiper-button-prev{
     cursor: pointer;
 }
 
+.repair-info-block__title.active::after,
 .repair-info-block__title::after {
     content: '\276F';
 }
-.repair-info-block__title.active::after {
-    content: '\276E';
-}
-.repair-info-block__title::after,
-.repair-info-block__title.active::after{
+
+.repair-info-block__title::after{
     font-size: 30px;
     display: inline-block;
     vertical-align: middle;
@@ -328,7 +326,14 @@ body .swiper-button-prev{
     -ms-transform: rotate(90deg);
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
+    transition: width 2s, height 2s, background-color 2s, transform 0.5s, color 3s;
 }
+.repair-info-block__title.active::after{
+    transform: rotate(270deg);
+    transition: width 2s, height 2s, background-color 2s, transform 0.5s, color 3s;
+    color: teal;
+}
+
 
 .repair-info-block__wrapper{
     border: 1px darkgrey dashed;
