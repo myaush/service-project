@@ -2,7 +2,6 @@ $(document).ready(function(){
 $('.repair-info-block__wrapper-list').hide();
 
     var swiperH = new Swiper('.swiper-container-h', {
-        spaceBetween: 50,
         autoHeight: true,
         pagination: {
             el: '.swiper-pagination-h',
