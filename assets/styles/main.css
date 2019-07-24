@@ -327,6 +327,7 @@ body .swiper-button-prev{
 }
 .link_more a:hover {
     background: none;
+    background: whitesmoke;
 }
 .main_title {
     font-size: 48px;
