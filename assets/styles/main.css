@@ -276,7 +276,8 @@ body .swiper-button-prev{
 .main-slider .swiper-wrapper img {
     width: 100%;
     display: block;
-    height: 500px;
+    height: auto;
+    max-height: 500px;
     object-fit: contain;
 }
 .main-slider .swiper-slide{
