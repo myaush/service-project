@@ -276,10 +276,21 @@ body .swiper-button-prev{
 .main-slider .swiper-wrapper img {
     width: 100%;
     display: block;
-    height: auto;
-    max-height: 500px;
+    height: 500px;
     object-fit: contain;
 }
+@media (max-width:1240px){
+    .main-slider .swiper-wrapper img {
+        height: 400px;
+    }
+}
+@media (max-width:1000px){
+    .main-slider .swiper-wrapper img {
+        height: 300px;
+    }
+}
+
+
 .main-slider .swiper-slide{
 
 }
