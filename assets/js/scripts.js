@@ -61,4 +61,25 @@ $('.repair-info-block__wrapper-list').hide();
         },
     });
 
+
+    $('.stuff-wrapper').click(function(e){
+        if($(this).hasClass('active')){
+            $(this).removeClass('active');
+            $(this).find('.stuff-wrapper__list').slideUp(300);
+        }else{
+            $('.stuff-wrapper').removeClass('active');
+            $('.stuff-wrapper__list').slideUp(300);
+            $(this).addClass('active');
+            $(this).find('.stuff-wrapper__list').slideDown(300);
+        }
+    });
+
+    $('.stuff-wrapper__list').click(function(e){
+        e.stopPropagation();
+    });
+    $('.stuff-wrapper__list li').click(function(){
+        $('.stuff-wrapper__list li').removeClass('active');
+        $(this).addClass('active');
+    });
+
 });
