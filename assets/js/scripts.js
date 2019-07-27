@@ -91,4 +91,14 @@ $('.repair-info-block__wrapper-list').hide();
         $('.pick-block__services').show();
         $('body,html').animate({scrollTop:$('body').scrollTop()-100}, 200).animate({scrollTop:jQuery('.pick-block__services').offset().top}, 800);
     });
+    $('.pick-block__services-close').click(function(){
+        toStartPositionStuff();
+    });
 });
+
+function toStartPositionStuff(){
+    $('body,html').animate({scrollTop:$('.pick-block__stuff').offset().top - 200}, 400);
+    $('.pick-block__services').slideUp();
+    $('.stuff-wrapper__list').slideUp();
+    $('.stuff-wrapper').removeClass('active');
+}

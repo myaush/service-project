@@ -581,7 +581,22 @@ body .swiper-button-prev{
     border-bottom: 3px solid #313131;
 }
 
-
+.pick-block__services-close{
+    cursor: pointer;
+    position: relative; */
+    top: -5px;
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 15px;
+    height: 15px;
+    /* width: 100; */
+    border-right: 0.2em solid black;
+    border-top: 0.2em solid black;
+    transform: rotate(-45deg);
+    margin-right: 0.5em;
+    margin-left: 1.0em;
+}
 
 
 
