@@ -82,4 +82,13 @@ $('.repair-info-block__wrapper-list').hide();
         $(this).addClass('active');
     });
 
+
+    $('.services-item__wrapper').click(function(){
+        $(this).toggleClass('active');
+    });
+
+    $('li[data-model]').click(function(){
+        $('.pick-block__services').show();
+        $('body,html').animate({scrollTop:$('body').scrollTop()-100}, 200).animate({scrollTop:jQuery('.pick-block__services').offset().top}, 800);
+    });
 });
