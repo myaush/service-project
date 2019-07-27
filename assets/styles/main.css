@@ -148,12 +148,17 @@ body {
     /*margin-top: 5px;*/
     position: relative;
     z-index: 10;
+    transition: 1s all;
     /*opacity: 0.85;*/
 }
 .header__menu.fixed{
     position: fixed;
     top: 0;
     background: rgba(45,45,45,0.78);
+}
+.header-menu-trick{
+    height: 40px;
+    display: none;
 }
 .items-wrapper__item.social.facebook{
     background-size: contain !important;
@@ -588,7 +593,7 @@ body .swiper-button-prev{
 
 .pick-block__services-close{
     cursor: pointer;
-    position: relative; */
+    position: relative;
     top: -5px;
     content: "";
     display: inline-block;
