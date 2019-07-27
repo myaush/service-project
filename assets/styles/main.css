@@ -520,6 +520,12 @@ body .swiper-button-prev{
 
 .pick-block__services{
     display: none;
+    text-align: center;
+}
+.pick-block__services h2{
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 100;
 }
 
 .services-item__wrapper{
