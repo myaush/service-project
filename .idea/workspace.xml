@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4974f13-4463-40fa-9ccf-c8e4c46fac80" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/scripts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,20 +14,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="899">
-              <caret line="317" column="22" lean-forward="true" selection-start-line="317" selection-start-column="22" selection-end-line="317" selection-end-column="22" />
+            <state relative-caret-position="385">
+              <caret line="356" column="96" selection-start-line="356" selection-start-column="96" selection-end-line="356" selection-end-column="96" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/styles/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="285" column="1" selection-start-line="285" selection-start-column="1" selection-end-line="285" selection-end-column="1" />
+            <state relative-caret-position="336">
+              <caret line="324" column="24" selection-start-line="324" selection-start-column="24" selection-end-line="324" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -34,7 +35,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/fonts/stylesheet.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
+            <state relative-caret-position="1275">
               <caret line="75" column="4" selection-start-line="75" selection-start-column="4" selection-end-line="76" selection-end-column="23" />
             </state>
           </provider>
@@ -43,8 +44,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/scripts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="81" column="35" selection-start-line="81" selection-start-column="35" selection-end-line="81" selection-end-column="35" />
+            <state relative-caret-position="533">
+              <caret line="91" column="71" selection-start-line="91" selection-start-column="71" selection-end-line="91" selection-end-column="71" />
             </state>
           </provider>
         </entry>
@@ -57,6 +58,7 @@
       <find>max-he</find>
       <find>main</find>
       <find>swi</find>
+      <find>media</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -66,9 +68,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$USER_HOME$/Desktop/Новый текстовый документ (2).php" />
         <option value="$PROJECT_DIR$/assets/js/scripts.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/assets/styles/main.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -83,9 +86,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="290" />
-    <option name="y" value="15" />
+    <option name="y" value="-26" />
     <option name="width" value="1576" />
     <option name="height" value="957" />
   </component>
@@ -106,12 +109,6 @@
               <item name="service-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="service-project" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="service-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="service-project" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="fonts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="service-project" type="b2602c69:ProjectViewProjectNode" />
@@ -174,6 +171,7 @@
       <updated>1563736443263</updated>
       <workItem from="1563736444501" duration="15232000" />
       <workItem from="1564004906298" duration="15562000" />
+      <workItem from="1564166780067" duration="7079000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1563736655403</created>
@@ -298,7 +296,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30794000" />
+    <option name="totallyTimeSpent" value="37873000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -310,10 +308,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="290" y="15" width="1576" height="957" extended-state="0" />
+    <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27770448" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16971382" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -327,7 +325,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49879807" weight="0.3288835" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49939904" weight="0.3288835" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5012019" side_tool="true" visible="true" weight="0.3288835" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5012019" side_tool="true" visible="true" weight="0.2936078" />
       <window_info anchor="bottom" id="Messages" order="12" visible="true" weight="0.3288835" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -353,29 +351,36 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/assets/fonts/stylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
+        <state relative-caret-position="1275">
           <caret line="75" column="4" selection-start-line="75" selection-start-column="4" selection-end-line="76" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Новый текстовый документ (2).php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/scripts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="81" column="35" selection-start-line="81" selection-start-column="35" selection-end-line="81" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="899">
-          <caret line="317" column="22" lean-forward="true" selection-start-line="317" selection-start-column="22" selection-end-line="317" selection-end-column="22" />
+        <state relative-caret-position="533">
+          <caret line="91" column="71" selection-start-line="91" selection-start-column="71" selection-end-line="91" selection-end-column="71" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/styles/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="285" column="1" selection-start-line="285" selection-start-column="1" selection-end-line="285" selection-end-column="1" />
+        <state relative-caret-position="336">
+          <caret line="324" column="24" selection-start-line="324" selection-start-column="24" selection-end-line="324" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="356" column="96" selection-start-line="356" selection-start-column="96" selection-end-line="356" selection-end-column="96" />
         </state>
       </provider>
     </entry>
