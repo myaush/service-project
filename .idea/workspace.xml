@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d4974f13-4463-40fa-9ccf-c8e4c46fac80" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/additional.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/additional.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,11 +16,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="416" column="17" selection-start-line="416" selection-start-column="17" selection-end-line="416" selection-end-column="17" />
+            <state relative-caret-position="414">
+              <caret line="476" column="20" lean-forward="true" selection-start-line="476" selection-start-column="20" selection-end-line="476" selection-end-column="36" />
+              <folding>
+                <element signature="e#28340#28346#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -25,17 +31,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/styles/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="92" column="1" lean-forward="true" selection-start-line="92" selection-start-column="1" selection-end-line="92" selection-end-column="1" />
+            <state relative-caret-position="415">
+              <caret line="563" column="33" lean-forward="true" selection-start-line="563" selection-start-column="33" selection-end-line="563" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/styles/additional.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+            <state relative-caret-position="108">
+              <caret line="39" column="50" selection-start-line="39" selection-start-column="50" selection-end-line="39" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -52,8 +58,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/scripts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="98" column="32" lean-forward="true" selection-start-line="98" selection-start-column="32" selection-end-line="98" selection-end-column="32" />
+            <state relative-caret-position="482">
+              <caret line="103" column="36" selection-start-line="103" selection-start-column="36" selection-end-line="103" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -78,10 +84,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$USER_HOME$/Desktop/Новый текстовый документ (2).php" />
-        <option value="$PROJECT_DIR$/assets/styles/additional.css" />
-        <option value="$PROJECT_DIR$/assets/styles/main.css" />
-        <option value="$PROJECT_DIR$/assets/js/scripts.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/assets/js/scripts.js" />
+        <option value="$PROJECT_DIR$/assets/styles/main.css" />
+        <option value="$PROJECT_DIR$/assets/styles/additional.css" />
       </list>
     </option>
   </component>
@@ -181,7 +187,7 @@
       <updated>1563736443263</updated>
       <workItem from="1563736444501" duration="15232000" />
       <workItem from="1564004906298" duration="15562000" />
-      <workItem from="1564166780067" duration="16495000" />
+      <workItem from="1564166780067" duration="18309000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1563736655403</created>
@@ -372,11 +378,18 @@
       <option name="project" value="LOCAL" />
       <updated>1564247314727</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="pick-block v1.02">
+      <created>1564247447813</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1564247447813</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47289000" />
+    <option name="totallyTimeSpent" value="49103000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -445,31 +458,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/styles/additional.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/styles/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="92" column="1" lean-forward="true" selection-start-line="92" selection-start-column="1" selection-end-line="92" selection-end-column="1" />
+        <state relative-caret-position="414">
+          <caret line="476" column="20" lean-forward="true" selection-start-line="476" selection-start-column="20" selection-end-line="476" selection-end-column="36" />
+          <folding>
+            <element signature="e#28340#28346#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/scripts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="98" column="32" lean-forward="true" selection-start-line="98" selection-start-column="32" selection-end-line="98" selection-end-column="32" />
+        <state relative-caret-position="482">
+          <caret line="103" column="36" selection-start-line="103" selection-start-column="36" selection-end-line="103" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/assets/styles/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="416" column="17" selection-start-line="416" selection-start-column="17" selection-end-line="416" selection-end-column="17" />
+        <state relative-caret-position="415">
+          <caret line="563" column="33" lean-forward="true" selection-start-line="563" selection-start-column="33" selection-end-line="563" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/styles/additional.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="39" column="50" selection-start-line="39" selection-start-column="50" selection-end-line="39" selection-end-column="50" />
         </state>
       </provider>
     </entry>

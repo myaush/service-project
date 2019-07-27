@@ -94,6 +94,17 @@ $('.repair-info-block__wrapper-list').hide();
     $('.pick-block__services-close').click(function(){
         toStartPositionStuff();
     });
+
+    var wrap = $(".side-block-fixed");
+
+    $(document).on("scroll", function(e) {
+        if ($(document).scrollTop() > 147) {
+            wrap.addClass("active");
+        } else {
+            wrap.removeClass("active");
+        }
+
+    });
 });
 
 function toStartPositionStuff(){

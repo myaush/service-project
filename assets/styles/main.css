@@ -561,7 +561,7 @@ body .swiper-button-prev{
     left: 0px;
     right: 0px;
     opacity: 0;
-    -webkit-transition: 0.3s all; */
+    -webkit-transition: 0.3s all;
     -moz-transition: 0.3s all;
     -ms-transition: 0.3s all;
     -o-transition: 0.3s all;
@@ -597,6 +597,7 @@ body .swiper-button-prev{
     margin-right: 0.5em;
     margin-left: 1.0em;
 }
+
 
 
 

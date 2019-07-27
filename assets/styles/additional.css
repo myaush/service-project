@@ -34,3 +34,32 @@ a:hover:before {
     top: auto;
     height: 100%;
 }
+
+.side-block-fixed{
+    background: -webkit-linear-gradient(#1589e4, #034982);
+    background: radial-gradient(#1589e4, #006cc1);
+    color: #FFF;
+    font-size: 17px;
+    width: 1ch;
+    word-wrap: break-word;
+    padding: 10px;
+    position: fixed;
+    z-index: 99;
+    border-radius: 10px 0 0 10px;
+    top: 26%;
+    right: 0;
+    opacity:0;
+    line-height: 1;
+    cursor: pointer;
+    right: -30;
+    -webkit-transition: 0.3s all; */
+    -moz-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+    -o-transition: 0.3s all;
+    transition: 0.4s all;
+}
+.side-block-fixed.active{
+    display:block;
+    opacity:1;
+    right: 0px;
+}
