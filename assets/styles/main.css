@@ -153,6 +153,7 @@ body {
 .header__menu.fixed{
     position: fixed;
     top: 0;
+    background: rgba(45,45,45,0.78);
 }
 .items-wrapper__item.social.facebook{
     background-size: contain !important;
