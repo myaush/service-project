@@ -1,0 +1,36 @@
+
+.button-container a {
+    text-decoration: none;
+    outline: none;
+    color: white;
+    z-index: 1;
+    display: inline-block;
+    position: relative;
+    border-radius: 18px;
+    padding: 10px 20px;
+    border: 1px solid;
+    background: -webkit-linear-gradient(#1589e4, #034982);
+    background: linear-gradient(#1589e4, #034982);
+    max-width: 90px;  font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+    letter-spacing: 2px;
+    transition: .8s cubic-bezier(.165,.84,.44,1);
+}
+.button-container a:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 0;
+    width: 100%;
+    z-index: -1;
+    color: white;
+    background: linear-gradient(180deg, #313131, #313131, #313131, #313131);
+    transition: .8s cubic-bezier(.165,.84,.44,1);
+}
+a:hover {}
+a:hover:before {
+    bottom: 0%;
+    top: auto;
+    height: 100%;
+}
