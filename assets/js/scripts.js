@@ -100,5 +100,5 @@ function toStartPositionStuff(){
     $('body,html').animate({scrollTop:$('.pick-block__stuff').offset().top - 200}, 400);
     $('.pick-block__services').slideUp();
     $('.stuff-wrapper__list').slideUp();
-    $('.stuff-wrapper').removeClass('active');
+    $('.stuff-wrapper, .services-item__wrapper, li[data-model]').removeClass('active');
 }
