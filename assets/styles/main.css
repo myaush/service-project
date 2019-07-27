@@ -89,7 +89,7 @@ body {
     position: relative;
 }
 .header{
-    padding: 5px 0 0 0;
+    /*padding: 5px 0 0 0;*/
 }
 .header-top{
     background-color: #fafafa;
@@ -106,11 +106,11 @@ body {
 }
 .header__top-logo a{
     display: block;
-    padding: 5px;
+    /*padding: 5px;*/
 
 }
 .header__top-info-block{
-    font-size: 19px;
+    font-size: 29px;
     width: 30%;
     display: inline-block;
     overflow: hidden;
@@ -120,6 +120,8 @@ body {
     /*width: fit-content;*/
     margin: 0 auto;
     padding: 5px;
+    border-left: 3px solid #313131;
+    padding: 5px 5px 5px 0;
 }
 .header__top-center-block{
     width: 43%;
@@ -129,7 +131,7 @@ body {
 }
 .header__top-center-block_title{
     text-align: center;
-    padding: 20px;
+    padding: 20px 0 20px 0;
 }
 .header__top-info-block_services{
     width: 100%;
@@ -138,7 +140,7 @@ body {
 .header__logo-src {
     max-width: 350px;
     width:100%;
-    max-height: 184px;
+    max-height: 216px;
 }
 .header__menu{
     background: rgba(45,45,45,0.98);
@@ -190,6 +192,7 @@ body {
     text-decoration: none;
     color: #FFF;
     opacity: 0.95;
+    white-space: nowrap;
 }
 .header__menu li a:hover {
     opacity: 0.65;
@@ -198,13 +201,13 @@ body {
 
 .phone-wrapper{
     margin-top: 5px;
-    padding: 15px;
+    padding: 16px;
     text-align: center;
     /*border: 1px darkgrey dashed;*/
 }
 .items-wrapper{
     padding:15px;
-    border: 1px darkgrey dashed;
+    /*border: 1px darkgrey dashed;*/
     display: flex;
     justify-content: space-around;
     font-size:15px;
@@ -215,7 +218,7 @@ body {
     justify-content: center;
 }
 .items-wrapper__item.services{
-    border: 1px darkgrey dashed;
+    /*border: 1px darkgrey dashed;*/
     height: 100px;
     width: 150px;
     text-align: center;
@@ -574,7 +577,9 @@ body .swiper-button-prev{
     border-color: #268edf;
     color: white;
 }
-
+.header__top-info-block_section .items-wrapper{
+    border-bottom: 3px solid #313131;
+}
 
 
 
@@ -611,5 +616,10 @@ body .swiper-button-prev{
 @media screen and (max-width:950px){
     .pick-block__services-item{
         width: 50%;
+    }
+}
+@media screen and (max-width:877px){
+    .header__top-info-block {
+        font-size: 28px;
     }
 }

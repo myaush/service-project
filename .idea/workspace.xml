@@ -17,8 +17,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="228" column="51" lean-forward="true" selection-start-line="228" selection-start-column="51" selection-end-line="228" selection-end-column="51" />
+            <state relative-caret-position="425">
+              <caret line="61" column="70" selection-start-line="61" selection-start-column="70" selection-end-line="61" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -26,8 +26,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/styles/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="527" column="21" selection-start-line="527" selection-start-column="21" selection-end-line="527" selection-end-column="21" />
+            <state relative-caret-position="392">
+              <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/styles/additional.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -59,6 +68,7 @@
       <find>main</find>
       <find>swi</find>
       <find>media</find>
+      <find>pick-block__serv</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -71,6 +81,7 @@
         <option value="$USER_HOME$/Desktop/Новый текстовый документ (2).php" />
         <option value="$PROJECT_DIR$/assets/js/scripts.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/assets/styles/additional.css" />
         <option value="$PROJECT_DIR$/assets/styles/main.css" />
       </list>
     </option>
@@ -121,7 +132,7 @@
               <item name="service-project" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="header" type="462c0819:PsiDirectoryNode" />
+              <item name="pick-block" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="service-project" type="b2602c69:ProjectViewProjectNode" />
@@ -171,7 +182,7 @@
       <updated>1563736443263</updated>
       <workItem from="1563736444501" duration="15232000" />
       <workItem from="1564004906298" duration="15562000" />
-      <workItem from="1564166780067" duration="7768000" />
+      <workItem from="1564166780067" duration="13543000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1563736655403</created>
@@ -306,11 +317,18 @@
       <option name="project" value="LOCAL" />
       <updated>1564228595957</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="pick-block v1.01">
+      <created>1564229156078</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1564229156078</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38562000" />
+    <option name="totallyTimeSpent" value="44337000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -387,15 +405,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="228" column="51" lean-forward="true" selection-start-line="228" selection-start-column="51" selection-end-line="228" selection-end-column="51" />
+        <state relative-caret-position="425">
+          <caret line="61" column="70" selection-start-line="61" selection-start-column="70" selection-end-line="61" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/styles/additional.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/styles/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="527" column="21" selection-start-line="527" selection-start-column="21" selection-end-line="527" selection-end-column="21" />
+        <state relative-caret-position="392">
+          <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
         </state>
       </provider>
     </entry>
