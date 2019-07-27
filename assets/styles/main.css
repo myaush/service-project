@@ -150,6 +150,10 @@ body {
     z-index: 10;
     /*opacity: 0.85;*/
 }
+.header__menu.fixed{
+    position: fixed;
+    top: 0;
+}
 .items-wrapper__item.social.facebook{
     background-size: contain !important;
     background: url(../../assets/img/header/facebook.png);

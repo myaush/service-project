@@ -89,19 +89,29 @@ $('.repair-info-block__wrapper-list').hide();
 
     $('li[data-model]').click(function(){
         $('.pick-block__services').show();
-        $('body,html').animate({scrollTop:$('body').scrollTop()-100}, 200).animate({scrollTop:jQuery('.pick-block__services').offset().top}, 800);
+        $('body,html').animate({scrollTop:$('body').scrollTop()-100}, 200).animate({scrollTop:jQuery('.pick-block__services').offset().top - 50}, 800);
     });
     $('.pick-block__services-close').click(function(){
         toStartPositionStuff();
     });
 
     var wrap = $(".side-block-fixed");
+    var headerMenu = $(".header__menu");
+    if ($(document).scrollTop() > 217) {
+        headerMenu.addClass("fixed");
+    }
 
     $(document).on("scroll", function(e) {
         if ($(document).scrollTop() > 147) {
             wrap.addClass("active");
         } else {
             wrap.removeClass("active");
+        }
+
+        if ($(document).scrollTop() > 217) {
+            headerMenu.addClass("fixed");
+        } else {
+            headerMenu.removeClass("fixed");
         }
 
     });
