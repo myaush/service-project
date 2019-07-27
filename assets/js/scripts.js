@@ -97,7 +97,7 @@ $('.repair-info-block__wrapper-list').hide();
 
     var wrap = $(".side-block-fixed");
     var headerMenu = $(".header__menu");
-    if ($(document).scrollTop() > 215) {
+    if ($(document).scrollTop() > 214) {
         headerMenu.addClass("fixed");
     }
 
