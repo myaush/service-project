@@ -123,7 +123,7 @@ $('.repair-info-block__wrapper-list').hide();
         close_modal();
     });
 
-    $(document).on('click', '.items-wrapper__item.services', function(){
+    $(document).on('click', '.items-wrapper__item.services, .side-block-fixed', function(){
         open_modal();
     });
 
