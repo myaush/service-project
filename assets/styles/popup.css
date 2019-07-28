@@ -1,5 +1,6 @@
 .popup {
-    --orange: #f2802c;
+    /*--orange: #f2802c;*/
+    --orange: #1976d2;
     --grey: #d0d0d0;
     width: 100%;
     height: 100vh;
