@@ -118,6 +118,15 @@ $('.repair-info-block__wrapper-list').hide();
         }
 
     });
+
+    $(document).on('click','.popup__close', function(){
+        close_modal();
+    });
+
+    $(document).on('click', '.items-wrapper__item.services', function(){
+        open_modal();
+    });
+
 });
 
 function toStartPositionStuff(){
@@ -125,4 +134,16 @@ function toStartPositionStuff(){
     $('.pick-block__services').slideUp();
     $('.stuff-wrapper__list').slideUp();
     $('.stuff-wrapper, .services-item__wrapper, li[data-model]').removeClass('active');
+}
+
+function close_modal(){
+    $('#modal_form').removeClass('popup_active');
+    $('.wrap').removeClass('blur');
+}
+
+function open_modal(){
+    if($('#modal_form').css('visibility') == 'hidden'){
+        $('#modal_form').addClass('popup_active');
+        $('.wrap').addClass('blur');
+    }
 }
