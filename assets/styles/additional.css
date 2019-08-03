@@ -36,13 +36,13 @@ a:hover:before {
 }
 
 .side-block-fixed{
-    background: -webkit-linear-gradient(#1589e4, #034982);
-    background: radial-gradient(#1589e4, #006cc1);
+    background: -webkit-linear-gradient(#F44336, #d62744);
+    background: radial-gradient(#F44336, #d62744);
     color: #FFF;
     font-size: 17px;
     width: 1ch;
     word-wrap: break-word;
-    padding: 10px;
+    padding: 10px 20px 10px 20px;
     position: fixed;
     z-index: 99;
     border-radius: 10px 0 0 10px;
@@ -52,7 +52,7 @@ a:hover:before {
     line-height: 1;
     cursor: pointer;
     right: -30;
-    -webkit-transition: 0.3s all; */
+    -webkit-transition: 0.3s all;
     -moz-transition: 0.3s all;
     -ms-transition: 0.3s all;
     -o-transition: 0.3s all;
@@ -67,5 +67,5 @@ a:hover:before {
     display:block;
     opacity:1;
     right: 0px;
-    padding-right: 30px;
+    padding-right: 50px;
 }
